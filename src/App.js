@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import Card from "./components/UI/Card/Card";
-import AddUser from "./components/Users/AddUser";
-import UserList from "./components/Users/UserList";
-import "./App.css";
+import React, { useState } from 'react';
+import Card from './components/UI/Card/Card';
+import AddUser from './components/Users/AddUser';
+import UserList from './components/Users/UserList';
+import './App.css';
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -14,7 +14,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className='App'>
       <Card>
         <AddUser onSaveUser={newEnteredUser} />
       </Card>
